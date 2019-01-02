@@ -1,6 +1,6 @@
 var c,ctx,data;
 var mouseData={
-  down:true,
+  down:false,
 };
 function setup(){
   c=document.getElementById("canvas");
@@ -32,7 +32,7 @@ function test(m){
 
 function stroke(){
   var time=new Date();
-  this.tineStamp="Date = "+time.getFullYear+", "+time.getMonth()+", "+time.getDay()+"   Time = "+time.getHours()+":"+time.getMinutes()+":"+time.getSeconds()+":"+time.getMilliseconds();
+  this.tineStamp="Date = "+time.getFullYear()+", "+time.getMonth()+", "+time.getDay()+"   Time = "+time.getHours()+":"+time.getMinutes()+":"+time.getSeconds()+":"+time.getMilliseconds();
   this.xs=[];
   this.ys=[];
 }
