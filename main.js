@@ -6,6 +6,8 @@ function setup(){
   c=document.getElementById("canvas");
   c.width=window.innerWidth-8;
   c.height=window.innerHeight-38;
+  c.style.width=window.innerWidth-8;
+  c.style.height=window.innerHeight-38;
   ctx=c.getContext("2d");
   data=[];
   c.addEventListener("mousemove",function(event){
