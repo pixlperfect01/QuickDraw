@@ -5,7 +5,7 @@ var mouseData={
 function setup(){
   c=document.getElementById("canvas");
   c.width=window.innerWidth-8;
-  c.height=window.innerHeight-8;
+  c.height=window.innerHeight-38;
   ctx=c.getContext("2d");
   data=[];
   c.addEventListener("mousemove",function(event){
