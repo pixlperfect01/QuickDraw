@@ -23,7 +23,7 @@ function setup(){
 
 function test(m){
   if(mouseData.down){
-    ctx.fillRect(m.offsetX, m.offsetY, 1, 1);
+    ctx.arc(m.offsetX, m.offsetY, 10, 0, Math.PI*2);
     data[data.length-1].xs.push(m.offsetX);
     data[data.length-1].ys.push(m.offsetY);
   }
