@@ -26,6 +26,7 @@ function test(m){
     ctx.fillRect(m.offsetX, m.offsetY, 1, 1);
     data[data.length-1].x.push(m.offsetX);
     data[data.length-1].y.push(m.offsetY);
+  }
 }
 
 
