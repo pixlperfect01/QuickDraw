@@ -31,7 +31,7 @@ function setup(){
 function test(m){
   if(mouseData.down){
     ctx.beginPath();
-    ctx.arc(m.offsetX, m.offsetY, 2, 0, Math.PI*2);
+    ctx.arc(m.offsetX, m.offsetY, 4, 0, Math.PI*2);
     ctx.fill();
     data[data.length-1].xs.push(m.offsetX);
     data[data.length-1].ys.push(m.offsetY);
