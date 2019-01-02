@@ -4,10 +4,10 @@ var mouseData={
 };
 function setup(){
   c=document.getElementById("canvas");
-  c.width=window.innerWidth-8;
-  c.height=window.innerHeight-38;
-  c.style.width=window.innerWidth-8;
-  c.style.height=window.innerHeight-29;
+  c.width=window.innerWidth-18;
+  c.height=window.innerHeight-50;
+  c.style.width=window.innerWidth-18;
+  c.style.height=window.innerHeight-50;
   ctx=c.getContext("2d");
   data=[];
   c.addEventListener("mousemove",function(event){
