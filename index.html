@@ -2,8 +2,13 @@
   <head>
     <title>Qucik Draw</title>
     <script src="main.js"></script>
+    <script>
+      function al(){
+        alert("Please move the mouse slowly while drawing");
+      }
+    </script>
   </head>
-  <body onload="setup()">
+  <body onload="setup();al();">
     <canvas id="canvas"></canvas>
     <button style="width:100%;background-color:#00ff00;" onclick="">Submit</button>
   </body>
