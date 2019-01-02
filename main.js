@@ -32,7 +32,7 @@ function test(m){
 
 function stroke(){
   var time=new Date();
-  this.t="Date = "+time.getFullYear+", "+time.getMonth()+", "+time.getDay()+"   Time = "+time.getHours()+":"+time.getMinutes()+":"+time.getSeconds()+":"+time.getMilliseconds();
-  this.x=[];
-  this.y=[];
+  this.tineStamp="Date = "+time.getFullYear+", "+time.getMonth()+", "+time.getDay()+"   Time = "+time.getHours()+":"+time.getMinutes()+":"+time.getSeconds()+":"+time.getMilliseconds();
+  this.xs=[];
+  this.ys=[];
 }
