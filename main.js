@@ -20,6 +20,9 @@ function setup(){
   c.addEventListener("mouseup",function(){
     mouseData.down=false;
   });
+  c.addEventListener("mouseleave",function(){
+    mouseData.down=false;
+  });
 }
 
 
