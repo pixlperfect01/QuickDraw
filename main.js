@@ -6,7 +6,6 @@ function setup(){
   c=document.getElementById("canvas");
   ctx=c.getContext("2d");
   data=[];
-  loop();
   c.addEventListener("mousemove",function(event){
     test(event);
   });
