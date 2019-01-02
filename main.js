@@ -4,6 +4,8 @@ var mouseData={
 };
 function setup(){
   c=document.getElementById("canvas");
+  c.width=window.innerWidth-5;
+  c.height=window.innerHeight-5;
   ctx=c.getContext("2d");
   data=[];
   c.addEventListener("mousemove",function(event){
