@@ -8,7 +8,7 @@ var settings={
   strokeSize:7,
   currentMode:"draw"
 };
-setTimeout(update, 20);
+setInterval(update, 20);
 function setup(){
   c=document.getElementById("canvas");
   c.width=window.innerWidth-18;
