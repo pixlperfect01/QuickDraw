@@ -8,7 +8,7 @@ var settings={
   strokeSize:7,
   currentMode:"draw"
 };
-setTimeout(update, 100);
+setTimeout(update, 20);
 function setup(){
   c=document.getElementById("canvas");
   c.width=window.innerWidth-18;
@@ -57,6 +57,9 @@ function stroke(){
 function update(){
   settings.backgroundColor=document.getElementById("backColor").value;
   settings.strokeColor=document.getElementById("strokeColor").value;
-  settings.strokeSize=document.getElementById("strokeSize").value;
+  settings.strokeSize=parseInt(document.getElementById("strokeSize").value);
   settings.currentMode=document.getElementById("mode").value;
+  if(settings.currentMode==="erase"){
+    settings.strokeColor=settings.backgroundColor;
+  }
 }
